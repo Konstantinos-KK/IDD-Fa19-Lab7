@@ -18,6 +18,26 @@
 To add a webcam functionality the file also includes the webcam variable "var NodeWebcam" as well as the deafualt parameters and fucntion "'takePicture', function()".
 
 **b. Include a video of your working video doorbell** [Video](https://www.youtube.com/watch?v=oabhYpd3rR8)
+```js
+socket.on('server-msg', function(msg) {
+  msg = msg.toString();
+  console.log('msg:', msg);
+  switch (msg) {
+    case "light":
+      socket.emit('takePicture')
+      document.body.style.backgroundColor = "black";
+      console.log("white")
+      break;
+    case "dark":
+      document.body.style.backgroundColor = "rgb(255,0,0)";
+      console.log("black");
+      break;
+    default:
+      //console.log("something else");
+      break;
+  }
+});
+```
 
 ## Part C. Make it your own
 
