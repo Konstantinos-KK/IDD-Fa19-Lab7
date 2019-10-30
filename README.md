@@ -47,4 +47,4 @@ socket.on('server-msg', function(msg) {
 **a. Find, install, and try out a node-based library and try to incorporate into your lab. Document your successes and failures (totally okay!) for your writeup. This will help others in class figure out cool new tools and capabilities.**
 I decided to go a doorbell related to elon musk memes. I changed the html file. I also used the fswebcam library and changed brightness (fswebcam −−set brightness=50%) and other settings to improve the resolution.
 
-**b. Upload a video of your working modified project** (Video)[https://www.youtube.com/watch?v=Xn53MSCFeng]
+**b. Upload a video of your working modified project** [Video](https://www.youtube.com/watch?v=Xn53MSCFeng)
