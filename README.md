@@ -23,4 +23,6 @@ To add a webcam functionality the file also includes the webcam variable "var No
 
 **a. Find, install, and try out a node-based library and try to incorporate into your lab. Document your successes and failures (totally okay!) for your writeup. This will help others in class figure out cool new tools and capabilities.**
 
+
+
 **b. Upload a video of your working modified project**
